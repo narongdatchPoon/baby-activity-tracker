@@ -43,7 +43,7 @@ export default function Home() {
   })
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-2xl font-bold mb-4">บันทึกกิจกรรมของทารก</h1>
+      <h1 className="text-2xl font-bold mb-4">บันทึกกิจกรรมของทารก (VARKIN)</h1>
       <div className="mb-4">
         <label className="block mb-1">กิจกรรม:</label>
         <select className="border p-2 w-full text-black" value={activity} onChange={(e) => setActivity(e.target.value)}>
